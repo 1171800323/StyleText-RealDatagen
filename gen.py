@@ -67,7 +67,7 @@ class datagen():
             i_s = cv2.add(mask_bg, surf_i_s)
 
             # 泊松融合，效果不好
-            # center = (surf_h // 2, surf_w // 2)
+            # center = (surf_w // 2, surf_h // 2)
             # seamlessClone_mask = 255 * np.ones(surf_i_s.shape, surf_i_s.dtype)
             # i_s = cv2.seamlessClone(
             #     surf_i_s, t_b, seamlessClone_mask, center, cv2.MIXED_CLONE)
